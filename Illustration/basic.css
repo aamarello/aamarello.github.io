@@ -16,13 +16,21 @@ html, body {
     background-color: black;
     margin: 10px;
 }
-h3{
+h1{
  color: white;
  font-size: 5em;
- font-family: 'Righteous', cursive;
- 
- margin-bottom: -2;
+font-family: 'Amatic SC', cursive;
+ padding-top: 100px;
+ margin-bottom: -2px;
 }
-.botton{
+
+.button{
     position: fixed;
+    background-color: black;
+    padding-top: 30px;
+    width: 100%;
+    margin-top: -30px;
+    padding-bottom: 20px
+
 }
+

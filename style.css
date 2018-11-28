@@ -6,6 +6,12 @@
 body {
     background-image: url("sky.png");
     background-color: #cccccc;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
  }
  .logo {
     margin-top: 60px;
