@@ -26,8 +26,8 @@ h1{
     font-weight: lighter;
 }
 .container-1{
-  padding-top: 50px;
-
+ 
+margin-left:50px;
 
 }
 .container-1 div{
@@ -43,8 +43,7 @@ h1{
 }
 h1{
     color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+   font-size: 3em
  
 }  
 h3{
@@ -75,10 +74,10 @@ h4{
     padding-left: 40px;
 }
 .references{
-    padding-top: 20px;
+
 }
 .work{
-    padding-top: 25px;
+  
 }
 .responsive {
    
@@ -100,5 +99,11 @@ body{
 }
 
 .image{
-    padding-top: 70px
+    padding-top: 70px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
 }

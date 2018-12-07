@@ -1,0 +1,31 @@
+body {
+    background-image: url("sky.gif");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+ }
+ .column {
+    float: left;
+    background-color: transparent;
+   padding-left: 200px
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h2{
+    font-size: 4em;
+    font-family: 'Amatic SC', cursive;
+}
+p{
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}

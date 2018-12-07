@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-areas:" header"
+    " main main"
+}
+body {
+    background-image: url("sky.gif");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+ }
+ .logo {
+    margin-top: 60px;
+    grid-area: header;
+    grid-column-start: 2;
+}
+.name {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    
+}
