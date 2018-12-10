@@ -17,7 +17,7 @@ html, body {
     margin: 10px;
 }
 h1{
- color: white;
+ color: 	white;
  font-size: 5em;
 font-family: 'Amatic SC', cursive;
  padding-top: 100px;
@@ -26,11 +26,16 @@ font-family: 'Amatic SC', cursive;
 
 .button{
     position: fixed;
-    background-color: black;
-    padding-top: 30px;
-    width: 100%;
+    background:-moz-linear-gradient(top, #ffec64 5%, #e3b976 100%);
+    background:-webkit-linear-gradient(top, #ffec64 5%, #e3b976 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #e3b976 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #e3b976 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #e3b976 100%);
+    padding-top: 20px;
+    width: 110%;
     margin-top: -30px;
-    padding-bottom: 20px
-
+    padding-bottom: 20px;
+    margin-left:-25px;
+    margin-right: 10px;
 }
 

@@ -1,7 +1,8 @@
 .container{
     display: grid;
     grid-template-areas:" header"
-    " main main"
+    " main main";
+    padding-top: 50px;
 }
 body {
     background-image: url("sky.gif");
@@ -27,4 +28,13 @@ body {
     font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
     grid-area:header;
+}
+.button{
+    position: fixed;
+    background-color: black;
+    padding-top: 30px;
+    width: 101%;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -100px
 }
