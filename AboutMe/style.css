@@ -13,14 +13,15 @@ body {
     -o-background-size:cover;
     background-size:cover;
     background-position:center;
+  
  }
 
 .name {
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 4em;
-    padding-top: 80px;
-    padding-bottom: 100px
+    padding-top: 150px;
+    padding-bottom:10px;
    
 }
 .info{
@@ -28,6 +29,8 @@ body {
     font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
     grid-area:header;
+    margin-left: 21%;
+    margin-right: 21%;
 }
 .button{
     position: fixed;

@@ -11,7 +11,8 @@ body {
  .column {
     float: left;
     background-color: transparent;
-   padding-left: 200px
+   padding-left: 200px;
+   padding-top: 100px
 
 }
 
@@ -28,4 +29,13 @@ h2{
 p{
     font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
+}
+.button{
+    position: fixed;
+    background-color: black;
+    padding-top: 30px;
+    width: 101%;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -100px
 }
